@@ -16,9 +16,9 @@ public class DeluxePizza extends Pizza {
 
     }
 
-      public int getPrice()
-      {
-          return 300;
-      }
+//      public int getPrice()
+//      {
+//          return 300;
+//      }
 
 }
