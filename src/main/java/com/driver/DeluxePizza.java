@@ -16,13 +16,13 @@ public class DeluxePizza extends Pizza {
     public DeluxePizza(Boolean isVeg) {
         super(isVeg);
         // your code goes here
-        if(isVeg==true)
-        {
-            this.dprice=300;
-        }else this.dprice=400;
+//        if(isVeg==true)
+//        {
+//            this.dprice=300;
+//        }else this.dprice=400;
 
-//        addExtraCheese();
-//        addExtraToppings();
+        addExtraCheese();
+        addExtraToppings();
 //        addTakeaway();
 
 
