@@ -91,7 +91,7 @@ Total Price: 470*/
     public String getBill(){
         // your code goes here
 
-        if(isBillGenerated==true)
+        if(isBillGenerated==false)
         {
             if(ischeezAdded==true)
                 this.bill=this.bill+"Extra Cheese Added: "+this.cheezeprice+"\n";
