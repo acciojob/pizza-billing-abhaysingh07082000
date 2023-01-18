@@ -98,7 +98,7 @@ Total Price: 470*/
         if(isTakeawayAdded==true)
                this.bill=this.bill+"Paperbag Added: "+this.takeawayprice+"\n";
 
-        this.bill=this.bill+"Total Price :"+this.price+"\n";
+        this.bill=this.bill+"Total Price: "+this.price+"\n";
         isBillGenerated=true;
 
         return this.bill;

@@ -21,8 +21,8 @@ public class DeluxePizza extends Pizza {
             this.dprice=300;
         }else this.dprice=400;
 
-        addExtraCheese();
-        addExtraToppings();
+//        addExtraCheese();
+//        addExtraToppings();
         addTakeaway();
 
 
