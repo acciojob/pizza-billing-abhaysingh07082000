@@ -5,7 +5,7 @@ public class Main {
   {
 
     DeluxePizza dp = new DeluxePizza(true);
-//    System.out.println(dp.getPrice());
+    System.out.println(dp.getPrice());
 
     dp.addTakeaway();
 
