@@ -91,15 +91,19 @@ Total Price: 470*/
     public String getBill(){
         // your code goes here
 
-        if(ischeezAdded==true)
-              this.bill=this.bill+"Extra Cheese Added: "+this.cheezeprice+"\n";
-        if(istoppingAdded==true)
-              this.bill=this.bill+"Extra Toppings Added: "+this.toppingprice+"\n";
-        if(isTakeawayAdded==true)
-               this.bill=this.bill+"Paperbag Added: "+this.takeawayprice+"\n";
+        if(isBillGenerated==true)
+        {
+            if(ischeezAdded==true)
+                this.bill=this.bill+"Extra Cheese Added: "+this.cheezeprice+"\n";
+            if(istoppingAdded==true)
+                this.bill=this.bill+"Extra Toppings Added: "+this.toppingprice+"\n";
+            if(isTakeawayAdded==true)
+                this.bill=this.bill+"Paperbag Added: "+this.takeawayprice+"\n";
 
-        this.bill=this.bill+"Total Price: "+this.price+"\n";
-        isBillGenerated=true;
+            this.bill=this.bill+"Total Price: "+this.price+"\n";
+            isBillGenerated=true;
+        }
+
 
         return this.bill;
     }
