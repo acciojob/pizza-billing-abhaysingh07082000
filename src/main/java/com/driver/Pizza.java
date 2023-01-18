@@ -34,7 +34,7 @@ public class Pizza {
         this.cheezeprice=80;
         this.takeawayprice=20;
 
-        this.bill="Base Price Of The Pizza: "+this.price+"\n";
+
          this.isBillGenerated=false;
         if(this.isVeg==true)
         {
@@ -48,6 +48,7 @@ public class Pizza {
             this.toppingprice=120;
         }
 
+        this.bill="Base Price Of The Pizza: "+this.price+"\n";
         this.ischeezAdded=false;
         this.isTakeawayAdded=false;
 
